@@ -15,13 +15,6 @@ from typing import List, Dict, Optional
 #    - Under "Advanced Options", you will find the authorization token.
 TOKEN_FILE = "joplin_token.txt"
 
-# 2. Set the name of the tag you want to use for filtering.
-#    All notes with this tag will be exported.
-#    If you want to export all notes, set this to None.
-TARGET_TAG_NAME = "blog"  # <--- SET YOUR TAG NAME HERE, or None
-
-# 3. Set the base directory for your Hexo source files.
-OUTPUT_DIR = "hexo_source"
 # 4. Define the standard Hexo directory names.
 POSTS_DIR_NAME = "source/_posts"
 RESOURCES_DIR_NAME = "source/resources" 
